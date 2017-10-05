@@ -23,14 +23,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <extension version="2.6" type="plugin" group="vmpayment" method="upgrade">
-    <name>VM Payment - BitPay</name>
+    <name>VM Payment - GloBee</name>
     <creationDate>July 27 2012</creationDate>
-    <author>BitPay</author>
-    <authorUrl>http://www.bitpay.com</authorUrl>
+    <author>GloBee</author>
+    <authorUrl>http://www.globee.com</authorUrl>
     <copyright>Copyright</copyright>
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
     <version>1.0.0</version>
-    <description>BitPay payment plugin</description>
+    <description>GloBee payment plugin</description>
     <files>
         <filename plugin="bitpay">bitpay.php</filename>
         <folder>language</folder>

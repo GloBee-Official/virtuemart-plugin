@@ -29,8 +29,8 @@ THE SOFTWARE.
 	<name>BitPay VirtueMart Integration</name>
 
 	<creationDate>November 6th 2012</creationDate>
-	<author>BitPay</author>
-	<authorUrl>http://bitpay.com</authorUrl>
+	<author>GloBee</author>
+	<authorUrl>http://globee.com</authorUrl>
 	<copyright>Copyright (C) 2012</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<version status="MINOR">1.0.0</version>

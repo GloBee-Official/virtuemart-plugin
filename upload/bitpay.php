@@ -380,11 +380,11 @@ class plgVmPaymentBitPay extends vmPSPlugin
         // Call BitPay
         if ($method->network == "test")
         {
-            $network_uri = 'test.bitpay.com';
+            $network_uri = 'test.globee.com';
         }
         else
         {
-            $network_uri = 'bitpay.com';
+            $network_uri = 'globee.com';
         }
         $curl   = curl_init('https://' . $network_uri . '/api/invoice/'.$bitpay_data['id']);
         $length = 0;
@@ -659,11 +659,11 @@ class plgVmPaymentBitPay extends vmPSPlugin
         // Call BitPay
         if ($method->network == "test")
         {
-            $network_uri = 'test.bitpay.com';
+            $network_uri = 'test.globee.com';
         }
         else
         {
-            $network_uri = 'bitpay.com';
+            $network_uri = 'globee.com';
         }
         $curl   = curl_init('https://' . $network_uri . '/api/invoice/');
         $length = 0;
@@ -714,11 +714,11 @@ class plgVmPaymentBitPay extends vmPSPlugin
         }
         else
         {
-            $html = vmText::_ ('BitPay could not process your payment for the following reasons:') .
+            $html = vmText::_ ('GloBee could not process your payment for the following reasons:') .
                 " <br /> -------------------- "  . "<br />" .
                 vmText::_ ($response['error']['message']) . "<br /> " .
                 vmText::_ ('Please contact the store owner');
-            bplog("VM BitPayError: " . $response['error']['message'] . " with order id: " . $order['details']['BT']->order_number);
+            bplog("VM GloBee: " . $response['error']['message'] . " with order id: " . $order['details']['BT']->order_number);
             bplog('curl error - no invoice url');
 
             $returnValue = 0;

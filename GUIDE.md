@@ -4,7 +4,7 @@
 
 * Last Version Tested: Joomla 2.5.20 VirtueMart 2.6.6
 
-You must have a BitPay merchant account to use this plugin.  It's free to [sign-up for a GloBee merchant account](https://globee.com).
+You must have a GloBee merchant account to use this plugin.  It's free to [sign-up for a GloBee merchant account](https://globee.com).
 
 ## Installation
 The Joomla Extension Manager expects a zip file for installation. You can download this zip file from the [most recent release](https://github.com/GloBee-Official/virtuemart-plugin/releases/latest) on the release page of this repository. Otherwise, the contents of the zip file can be found in the upload subdirectory. Create a zip file of everything in the upload directory and then follow the configuration instructions below.

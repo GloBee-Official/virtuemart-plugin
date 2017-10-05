@@ -1,4 +1,4 @@
-# Using the BitPay plugin for VirtueMart
+# Using the GloBee plugin for VirtueMart
 
 ## Prerequisites
 
